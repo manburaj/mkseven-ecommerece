@@ -1,4 +1,5 @@
 <?php
+//This will use cookies to record the details when accesing the website.
 	include 'includes/session.php';
 
 	if(isset($_SESSION['user'])){
